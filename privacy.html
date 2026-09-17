@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WordQuest 개인정보처리방침</title>
+<style>
+/* 앱과 같은 어두운 색을 쓴다 (design_system.dart 의 WQColors). */
+:root {
+  --bg: #1a1a2e;
+  --card: #25253e;
+  --text: #ffffff;
+  --text-secondary: #a0a0b8;
+  --mint: #00d2a0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 32px 16px 64px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic",
+    "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.back { margin: 0 0 24px; font-size: 14px; }
+.back a { color: var(--text-secondary); text-decoration: none; }
+.back a:hover { color: var(--mint); }
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+}
+
+.updated {
+  margin: 0 0 32px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+h2 {
+  margin: 32px 0 8px;
+  font-size: 17px;
+  color: var(--mint);
+}
+
+p { margin: 0 0 12px; }
+
+a { color: var(--mint); }
+
+ul { margin: 0 0 12px; padding-left: 20px; }
+li { margin-bottom: 6px; }
+
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--card);
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* 라이트 모드 브라우저에서도 읽히게 — 배경을 강제하므로 대비만 맞춘다. */
+@media (prefers-color-scheme: light) {
+  body { background: var(--bg); color: var(--text); }
+}
+</style>
+</head>
+<body>
+<main>
+  <p class="back"><a href="./">&larr; WordQuest</a></p>
+  <h1>개인정보처리방침</h1>
+  <p class="updated">시행일: 2026년 9월 19일</p>
+
+  <h2>1. 기기 안에만 저장하는 정보</h2>
+  <p>WordQuest은(는) 회원가입이 없습니다. 찾은 단어, 북마크, 스테이지 기록, 학습 시간, 하트 개수,
+  앱 설정은 사용자의 기기 안에만 저장되며 서버로 보내지 않습니다. 설정의 &ldquo;학습 데이터 초기화&rdquo;로
+  학습 기록을 지울 수 있고, 앱을 삭제하면 모두 지워집니다.</p>
+
+  <h2>2. 광고와 앱 사용 통계</h2>
+  <p>앱에는 광고(Google AdMob)와 앱 사용 통계&middot;오류 보고(Google Firebase)가 포함될 수 있습니다.
+  이 서비스들은 광고 ID, 기기 정보(기종&middot;운영체제 버전), 대략적인 사용 기록(화면 이동, 오류 발생)
+  같은 정보를 수집할 수 있습니다. 이름&middot;연락처처럼 사용자를 직접 알아볼 수 있는 정보는 수집하지 않습니다.
+  광고 개인화는 기기 설정에서 끌 수 있습니다. 앱 사용 통계와 오류 보고는 설정 &rarr; 데이터 &rarr;
+  &ldquo;사용 통계 보내기&rdquo; 로 끌 수 있습니다. 이미 보낸 기록은 되돌릴 수 없습니다.</p>
+
+  <h2>3. 이용 연령</h2>
+  <p>이 앱은 만 13세 이상을 대상으로 합니다. 만 13세 미만 아동의 정보를 알면서 수집하지 않습니다.</p>
+
+  <h2>4. 제3자 제공</h2>
+  <p>위 2항의 서비스 제공자 외에 개인정보를 제3자에게 제공하지 않습니다.</p>
+
+  <h2>5. 문의</h2>
+  <p>개인정보 관련 문의: <a href="mailto:daehyung.kim.dev@gmail.com">daehyung.kim.dev@gmail.com</a></p>
+
+  <h2>6. 변경</h2>
+  <p>방침이 바뀌면 앱 업데이트와 함께 이 화면에서 알립니다.</p>
+
+  <footer>WordQuest &middot; <a href="terms.html">이용약관</a></footer>
+</main>
+</body>
+</html>
